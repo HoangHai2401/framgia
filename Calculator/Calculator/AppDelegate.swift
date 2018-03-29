@@ -23,6 +23,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        let calutatorAutolayoutVC = CaculatorAutolayoutVC(nibName: "CaculatorAutolayoutVC", bundle: nil)
 //        let calutatorUsingCodeVC = CaculatorUsingCodeVC()
 //        let excerciseThreeLession3AutolayoutVC = ExcerciseThreeLession3AutolayoutVC(nibName: "ExcerciseThreeLession3AutolayoutVC", bundle: nil)
+//        let loginAutolayoutVC = LoginAutolayoutVC(nibName: "LoginAutolayoutVC", bundle: nil)
+//        let loginCodeVC = LoginCodeVC()
         window!.rootViewController = excerciseOneLession3AutolayoutVC
         window!.makeKeyAndVisible()
         return true
